@@ -1,0 +1,4 @@
+An AI to identify which traffic sign appears in a photograph. The program uses TensorFlow to build a neural network to classify road signs based on an image of those signs. The model is trained and tested using a labeled dataset: a collection of images that have already been categorized by the road sign represented in them.
+
+### My approach:
+I started with a convoluted layer with 32 filters and a 2 by 2 pooling layer as shown in the lecture notes. I got an accuracy of 89%. I added another set of those two layers and got an accuracy of 94%. I experimented with increasing the units in the hidden layer but it didnt go well and ended up decreasing the accuracy. I increased the number of filters in the 2 convoluted layers to 50 and it increased my accuracy to 96%. I found out that increasing the number of filters increases the accuracy of the model but I didnt increase it above 50 to prevent overfitting.
